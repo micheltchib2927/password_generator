@@ -64,6 +64,8 @@ body{
     border-color: black;
     margin-bottom: 20px;
     align-self: center;
+    font-size: 30px;
+    max-height: 35px;
     background-color: pink;
 }
 
@@ -88,13 +90,18 @@ body{
 }
 
 @keyframes emerge {
-    from {
+    0% {
         opacity: 0;
         transform: translateX(50px);
     }
 
-    to {
+    50% {
         opacity: 1;
         transform: translateX(0px);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(50px);
     }
 }
