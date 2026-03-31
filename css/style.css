@@ -21,7 +21,7 @@ body{
     font-weight: bold;
 }
 
-.generator button{
+.generator-button{
     border-radius: 7px;
     background-color: blue;
     color: white;
@@ -30,8 +30,23 @@ body{
     height: 20%;
 }
 
-.generator button:hover{
+.generator-button:hover{
     background-color: rgb(60, 97, 4);
+    cursor: pointer;
+}
+
+.generator :nth-child(2){
+    display: flex;
+}
+
+.copy{
+    width: 40px;
+    height: 40px;
+    background-color: pink;
+    border: none;
+}
+
+.copy:hover{
     cursor: pointer;
 }
 
